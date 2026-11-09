@@ -1,0 +1,9 @@
+[project]
+name = "recare-ai-platform"
+version = "0.1.0"
+description = "Recare AI platform reference: capacity planning, EKS autoscaling, SageMaker blue/green rollout, SLO guard"
+requires-python = ">=3.12"
+dependencies = ["fastapi", "uvicorn", "pydantic", "httpx"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
